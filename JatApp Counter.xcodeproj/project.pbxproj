@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		261D9C9425B8521700B39D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9C9325B8521700B39D60 /* AppDelegate.swift */; };
 		261D9C9625B8521700B39D60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9C9525B8521700B39D60 /* SceneDelegate.swift */; };
-		261D9C9825B8521700B39D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9C9725B8521700B39D60 /* ViewController.swift */; };
+		261D9C9825B8521700B39D60 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9C9725B8521700B39D60 /* LoginVC.swift */; };
 		261D9C9B25B8521700B39D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D9C9925B8521700B39D60 /* Main.storyboard */; };
 		261D9C9D25B8521900B39D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261D9C9C25B8521900B39D60 /* Assets.xcassets */; };
 		261D9CA025B8521900B39D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D9C9E25B8521900B39D60 /* LaunchScreen.storyboard */; };
 		261D9CAB25B8521900B39D60 /* JatApp_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CAA25B8521900B39D60 /* JatApp_CounterTests.swift */; };
 		261D9CB625B8521900B39D60 /* JatApp_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CB525B8521900B39D60 /* JatApp_CounterUITests.swift */; };
+		261D9CC725B852B800B39D60 /* SandboxText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CC625B852B800B39D60 /* SandboxText.swift */; };
+		261D9CCC25B860B100B39D60 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CCB25B860B100B39D60 /* NetworkService.swift */; };
+		261D9CD725B8D6EE00B39D60 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CD525B8D6EE00B39D60 /* KeychainWrapper.swift */; };
+		261D9CD825B8D6EE00B39D60 /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CD625B8D6EE00B39D60 /* KeychainItemAccessibility.swift */; };
+		261D9CE825B9B88A00B39D60 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CE725B9B88A00B39D60 /* LoginPresenter.swift */; };
+		261D9CF725B9D33A00B39D60 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 261D9CF625B9D33A00B39D60 /* LoginVC.xib */; };
+		261D9CFC25B9DBD000B39D60 /* AssemblyModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CFB25B9DBD000B39D60 /* AssemblyModuleBuilder.swift */; };
+		262AD40B25BA317E00209B05 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AD40925BA317E00209B05 /* SignUpVC.swift */; };
+		262AD40C25BA317E00209B05 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262AD40A25BA317E00209B05 /* SignUpVC.xib */; };
+		262AD41525BA31BF00209B05 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AD41425BA31BF00209B05 /* SignUpPresenter.swift */; };
+		262AD41A25BA358500209B05 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AD41925BA358500209B05 /* Router.swift */; };
+		262AD45725BB0EF400209B05 /* CounterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AD45525BB0EF400209B05 /* CounterVC.swift */; };
+		262AD45825BB0EF400209B05 /* CounterVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262AD45625BB0EF400209B05 /* CounterVC.xib */; };
+		262AD45F25BB0F6A00209B05 /* CounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AD45E25BB0F6A00209B05 /* CounterPresenter.swift */; };
+		26BEFC4925BB485800A2FAE5 /* CharCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BEFC4825BB485800A2FAE5 /* CharCount.swift */; };
+		26BEFC5F25BB59FB00A2FAE5 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BEFC5E25BB59FB00A2FAE5 /* AuthResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +54,7 @@
 		261D9C9025B8521700B39D60 /* JatApp Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JatApp Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261D9C9325B8521700B39D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		261D9C9525B8521700B39D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		261D9C9725B8521700B39D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		261D9C9725B8521700B39D60 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		261D9C9A25B8521700B39D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		261D9C9C25B8521900B39D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		261D9C9F25B8521900B39D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,22 @@
 		261D9CB125B8521900B39D60 /* JatApp CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JatApp CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		261D9CB525B8521900B39D60 /* JatApp_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JatApp_CounterUITests.swift; sourceTree = "<group>"; };
 		261D9CB725B8521900B39D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		261D9CC625B852B800B39D60 /* SandboxText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SandboxText.swift; path = "JatApp Counter/Modules/Counter/Model/SandboxText.swift"; sourceTree = SOURCE_ROOT; };
+		261D9CCB25B860B100B39D60 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		261D9CD525B8D6EE00B39D60 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		261D9CD625B8D6EE00B39D60 /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		261D9CE725B9B88A00B39D60 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		261D9CF625B9D33A00B39D60 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginVC.xib; path = "JatApp Counter/Modules/Auth/Login/View/LoginVC.xib"; sourceTree = SOURCE_ROOT; };
+		261D9CFB25B9DBD000B39D60 /* AssemblyModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AssemblyModuleBuilder.swift; path = "JatApp Counter/AssemblyModuleBuilder.swift"; sourceTree = SOURCE_ROOT; };
+		262AD40925BA317E00209B05 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		262AD40A25BA317E00209B05 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		262AD41425BA31BF00209B05 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		262AD41925BA358500209B05 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		262AD45525BB0EF400209B05 /* CounterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CounterVC.swift; path = "JatApp Counter/Modules/Counter/View/CounterVC.swift"; sourceTree = SOURCE_ROOT; };
+		262AD45625BB0EF400209B05 /* CounterVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CounterVC.xib; path = "JatApp Counter/Modules/Counter/View/CounterVC.xib"; sourceTree = SOURCE_ROOT; };
+		262AD45E25BB0F6A00209B05 /* CounterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CounterPresenter.swift; path = "JatApp Counter/Modules/Counter/Presenter/CounterPresenter.swift"; sourceTree = SOURCE_ROOT; };
+		26BEFC4825BB485800A2FAE5 /* CharCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCount.swift; sourceTree = "<group>"; };
+		26BEFC5E25BB59FB00A2FAE5 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +133,11 @@
 			children = (
 				261D9C9325B8521700B39D60 /* AppDelegate.swift */,
 				261D9C9525B8521700B39D60 /* SceneDelegate.swift */,
-				261D9C9725B8521700B39D60 /* ViewController.swift */,
-				261D9C9925B8521700B39D60 /* Main.storyboard */,
-				261D9C9C25B8521900B39D60 /* Assets.xcassets */,
-				261D9C9E25B8521900B39D60 /* LaunchScreen.storyboard */,
-				261D9CA125B8521900B39D60 /* Info.plist */,
+				262AD44C25BB0E0A00209B05 /* Modules */,
+				261D9CE325B9B7BE00B39D60 /* ServiceLayer */,
+				261D9CDF25B9B7B100B39D60 /* Keychain */,
+				26BEFC6A25BB5AA300A2FAE5 /* Storyboards */,
+				26BEFC6B25BB5AC100A2FAE5 /* Resources */,
 			);
 			path = "JatApp Counter";
 			sourceTree = "<group>";
@@ -126,6 +158,158 @@
 				261D9CB725B8521900B39D60 /* Info.plist */,
 			);
 			path = "JatApp CounterUITests";
+			sourceTree = "<group>";
+		};
+		261D9CDF25B9B7B100B39D60 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				261D9CD625B8D6EE00B39D60 /* KeychainItemAccessibility.swift */,
+				261D9CD525B8D6EE00B39D60 /* KeychainWrapper.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		261D9CE325B9B7BE00B39D60 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				261D9CFB25B9DBD000B39D60 /* AssemblyModuleBuilder.swift */,
+				262AD41925BA358500209B05 /* Router.swift */,
+				261D9CCB25B860B100B39D60 /* NetworkService.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		261D9CEC25B9B8A000B39D60 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				26BEFC6325BB59FF00A2FAE5 /* Model */,
+				26BEFC5625BB59B500A2FAE5 /* View */,
+				26BEFC5A25BB59CE00A2FAE5 /* Presenter */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		262AD41025BA318E00209B05 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				262AD44425BB0DE300209B05 /* View */,
+				262AD44825BB0DF000209B05 /* Presenter */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		262AD44425BB0DE300209B05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				262AD40925BA317E00209B05 /* SignUpVC.swift */,
+				262AD40A25BA317E00209B05 /* SignUpVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		262AD44825BB0DF000209B05 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				262AD41425BA31BF00209B05 /* SignUpPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		262AD44C25BB0E0A00209B05 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				262AD45C25BB0EFD00209B05 /* Counter */,
+				262AD45025BB0E2800209B05 /* Auth */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		262AD45025BB0E2800209B05 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				261D9CEC25B9B8A000B39D60 /* Login */,
+				262AD41025BA318E00209B05 /* SignUp */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		262AD45425BB0E3700209B05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26BEFC4825BB485800A2FAE5 /* CharCount.swift */,
+				261D9CC625B852B800B39D60 /* SandboxText.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		262AD45C25BB0EFD00209B05 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				262AD46625BB0F6E00209B05 /* Presenter */,
+				262AD45425BB0E3700209B05 /* Model */,
+				262AD45D25BB0F2700209B05 /* View */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
+		262AD45D25BB0F2700209B05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				262AD45525BB0EF400209B05 /* CounterVC.swift */,
+				262AD45625BB0EF400209B05 /* CounterVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		262AD46625BB0F6E00209B05 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				262AD45E25BB0F6A00209B05 /* CounterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		26BEFC5625BB59B500A2FAE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				261D9CF625B9D33A00B39D60 /* LoginVC.xib */,
+				261D9C9725B8521700B39D60 /* LoginVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26BEFC5A25BB59CE00A2FAE5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				261D9CE725B9B88A00B39D60 /* LoginPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		26BEFC6325BB59FF00A2FAE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				26BEFC5E25BB59FB00A2FAE5 /* AuthResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		26BEFC6A25BB5AA300A2FAE5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				261D9C9925B8521700B39D60 /* Main.storyboard */,
+				261D9C9E25B8521900B39D60 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		26BEFC6B25BB5AC100A2FAE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				261D9C9C25B8521900B39D60 /* Assets.xcassets */,
+				261D9CA125B8521900B39D60 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +417,10 @@
 			files = (
 				261D9CA025B8521900B39D60 /* LaunchScreen.storyboard in Resources */,
 				261D9C9D25B8521900B39D60 /* Assets.xcassets in Resources */,
+				262AD40C25BA317E00209B05 /* SignUpVC.xib in Resources */,
+				261D9CF725B9D33A00B39D60 /* LoginVC.xib in Resources */,
 				261D9C9B25B8521700B39D60 /* Main.storyboard in Resources */,
+				262AD45825BB0EF400209B05 /* CounterVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +445,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261D9C9825B8521700B39D60 /* ViewController.swift in Sources */,
+				261D9CE825B9B88A00B39D60 /* LoginPresenter.swift in Sources */,
+				261D9CCC25B860B100B39D60 /* NetworkService.swift in Sources */,
+				26BEFC4925BB485800A2FAE5 /* CharCount.swift in Sources */,
+				262AD45725BB0EF400209B05 /* CounterVC.swift in Sources */,
+				261D9CC725B852B800B39D60 /* SandboxText.swift in Sources */,
+				261D9CD725B8D6EE00B39D60 /* KeychainWrapper.swift in Sources */,
+				262AD41A25BA358500209B05 /* Router.swift in Sources */,
+				261D9C9825B8521700B39D60 /* LoginVC.swift in Sources */,
+				261D9CFC25B9DBD000B39D60 /* AssemblyModuleBuilder.swift in Sources */,
+				261D9CD825B8D6EE00B39D60 /* KeychainItemAccessibility.swift in Sources */,
+				262AD45F25BB0F6A00209B05 /* CounterPresenter.swift in Sources */,
 				261D9C9425B8521700B39D60 /* AppDelegate.swift in Sources */,
+				262AD40B25BA317E00209B05 /* SignUpVC.swift in Sources */,
+				262AD41525BA31BF00209B05 /* SignUpPresenter.swift in Sources */,
+				26BEFC5F25BB59FB00A2FAE5 /* AuthResponse.swift in Sources */,
 				261D9C9625B8521700B39D60 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
