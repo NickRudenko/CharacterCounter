@@ -13,8 +13,6 @@
 		261D9C9B25B8521700B39D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D9C9925B8521700B39D60 /* Main.storyboard */; };
 		261D9C9D25B8521900B39D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 261D9C9C25B8521900B39D60 /* Assets.xcassets */; };
 		261D9CA025B8521900B39D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 261D9C9E25B8521900B39D60 /* LaunchScreen.storyboard */; };
-		261D9CAB25B8521900B39D60 /* JatApp_CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CAA25B8521900B39D60 /* JatApp_CounterTests.swift */; };
-		261D9CB625B8521900B39D60 /* JatApp_CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CB525B8521900B39D60 /* JatApp_CounterUITests.swift */; };
 		261D9CC725B852B800B39D60 /* SandboxText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CC625B852B800B39D60 /* SandboxText.swift */; };
 		261D9CCC25B860B100B39D60 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CCB25B860B100B39D60 /* NetworkService.swift */; };
 		261D9CD725B8D6EE00B39D60 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261D9CD525B8D6EE00B39D60 /* KeychainWrapper.swift */; };
@@ -31,17 +29,12 @@
 		262AD45F25BB0F6A00209B05 /* CounterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262AD45E25BB0F6A00209B05 /* CounterPresenter.swift */; };
 		26BEFC4925BB485800A2FAE5 /* CharCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BEFC4825BB485800A2FAE5 /* CharCount.swift */; };
 		26BEFC5F25BB59FB00A2FAE5 /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BEFC5E25BB59FB00A2FAE5 /* AuthResponse.swift */; };
+		26BEFC7525BC212200A2FAE5 /* LoginPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BEFC7425BC212200A2FAE5 /* LoginPresenterTest.swift */; };
+		26BEFC8025BC2EE400A2FAE5 /* CounterPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BEFC7F25BC2EE400A2FAE5 /* CounterPresenterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		261D9CA725B8521900B39D60 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 261D9C8825B8521700B39D60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 261D9C8F25B8521700B39D60;
-			remoteInfo = "JatApp Counter";
-		};
-		261D9CB225B8521900B39D60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 261D9C8825B8521700B39D60 /* Project object */;
 			proxyType = 1;
@@ -60,11 +53,7 @@
 		261D9C9F25B8521900B39D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		261D9CA125B8521900B39D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		261D9CA625B8521900B39D60 /* JatApp CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JatApp CounterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		261D9CAA25B8521900B39D60 /* JatApp_CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JatApp_CounterTests.swift; sourceTree = "<group>"; };
 		261D9CAC25B8521900B39D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		261D9CB125B8521900B39D60 /* JatApp CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JatApp CounterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		261D9CB525B8521900B39D60 /* JatApp_CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JatApp_CounterUITests.swift; sourceTree = "<group>"; };
-		261D9CB725B8521900B39D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		261D9CC625B852B800B39D60 /* SandboxText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SandboxText.swift; path = "JatApp Counter/Modules/Counter/Model/SandboxText.swift"; sourceTree = SOURCE_ROOT; };
 		261D9CCB25B860B100B39D60 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		261D9CD525B8D6EE00B39D60 /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
@@ -81,6 +70,8 @@
 		262AD45E25BB0F6A00209B05 /* CounterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CounterPresenter.swift; path = "JatApp Counter/Modules/Counter/Presenter/CounterPresenter.swift"; sourceTree = SOURCE_ROOT; };
 		26BEFC4825BB485800A2FAE5 /* CharCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharCount.swift; sourceTree = "<group>"; };
 		26BEFC5E25BB59FB00A2FAE5 /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		26BEFC7425BC212200A2FAE5 /* LoginPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenterTest.swift; sourceTree = "<group>"; };
+		26BEFC7F25BC2EE400A2FAE5 /* CounterPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CounterPresenterTest.swift; path = "JatApp CounterTests/Counter/CounterPresenterTest.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,13 +89,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		261D9CAE25B8521900B39D60 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -113,7 +97,6 @@
 			children = (
 				261D9C9225B8521700B39D60 /* JatApp Counter */,
 				261D9CA925B8521900B39D60 /* JatApp CounterTests */,
-				261D9CB425B8521900B39D60 /* JatApp CounterUITests */,
 				261D9C9125B8521700B39D60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,7 +106,6 @@
 			children = (
 				261D9C9025B8521700B39D60 /* JatApp Counter.app */,
 				261D9CA625B8521900B39D60 /* JatApp CounterTests.xctest */,
-				261D9CB125B8521900B39D60 /* JatApp CounterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,19 +127,11 @@
 		261D9CA925B8521900B39D60 /* JatApp CounterTests */ = {
 			isa = PBXGroup;
 			children = (
-				261D9CAA25B8521900B39D60 /* JatApp_CounterTests.swift */,
+				26BEFC8325BC2EE800A2FAE5 /* Counter */,
+				26BEFC7825BC212500A2FAE5 /* Login */,
 				261D9CAC25B8521900B39D60 /* Info.plist */,
 			);
 			path = "JatApp CounterTests";
-			sourceTree = "<group>";
-		};
-		261D9CB425B8521900B39D60 /* JatApp CounterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				261D9CB525B8521900B39D60 /* JatApp_CounterUITests.swift */,
-				261D9CB725B8521900B39D60 /* Info.plist */,
-			);
-			path = "JatApp CounterUITests";
 			sourceTree = "<group>";
 		};
 		261D9CDF25B9B7B100B39D60 /* Keychain */ = {
@@ -312,6 +286,22 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		26BEFC7825BC212500A2FAE5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				26BEFC7425BC212200A2FAE5 /* LoginPresenterTest.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		26BEFC8325BC2EE800A2FAE5 /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				26BEFC7F25BC2EE400A2FAE5 /* CounterPresenterTest.swift */,
+			);
+			path = Counter;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -350,24 +340,6 @@
 			productReference = 261D9CA625B8521900B39D60 /* JatApp CounterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		261D9CB025B8521900B39D60 /* JatApp CounterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 261D9CC025B8521900B39D60 /* Build configuration list for PBXNativeTarget "JatApp CounterUITests" */;
-			buildPhases = (
-				261D9CAD25B8521900B39D60 /* Sources */,
-				261D9CAE25B8521900B39D60 /* Frameworks */,
-				261D9CAF25B8521900B39D60 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				261D9CB325B8521900B39D60 /* PBXTargetDependency */,
-			);
-			name = "JatApp CounterUITests";
-			productName = "JatApp CounterUITests";
-			productReference = 261D9CB125B8521900B39D60 /* JatApp CounterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -381,10 +353,6 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					261D9CA525B8521900B39D60 = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 261D9C8F25B8521700B39D60;
-					};
-					261D9CB025B8521900B39D60 = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 261D9C8F25B8521700B39D60;
 					};
@@ -405,7 +373,6 @@
 			targets = (
 				261D9C8F25B8521700B39D60 /* JatApp Counter */,
 				261D9CA525B8521900B39D60 /* JatApp CounterTests */,
-				261D9CB025B8521900B39D60 /* JatApp CounterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -425,13 +392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		261D9CA425B8521900B39D60 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		261D9CAF25B8521900B39D60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,15 +428,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				261D9CAB25B8521900B39D60 /* JatApp_CounterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		261D9CAD25B8521900B39D60 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				261D9CB625B8521900B39D60 /* JatApp_CounterUITests.swift in Sources */,
+				26BEFC7525BC212200A2FAE5 /* LoginPresenterTest.swift in Sources */,
+				26BEFC8025BC2EE400A2FAE5 /* CounterPresenterTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,11 +440,6 @@
 			isa = PBXTargetDependency;
 			target = 261D9C8F25B8521700B39D60 /* JatApp Counter */;
 			targetProxy = 261D9CA725B8521900B39D60 /* PBXContainerItemProxy */;
-		};
-		261D9CB325B8521900B39D60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 261D9C8F25B8521700B39D60 /* JatApp Counter */;
-			targetProxy = 261D9CB225B8521900B39D60 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -638,7 +586,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PE7RPE5TA2;
-				INFOPLIST_FILE = "JatApp Counter/Info.plist";
+				INFOPLIST_FILE = "JatApp Counter/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -657,7 +605,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PE7RPE5TA2;
-				INFOPLIST_FILE = "JatApp Counter/Info.plist";
+				INFOPLIST_FILE = "JatApp Counter/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -713,46 +661,6 @@
 			};
 			name = Release;
 		};
-		261D9CC125B8521900B39D60 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PE7RPE5TA2;
-				INFOPLIST_FILE = "JatApp CounterUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickrudenko.JatApp-CounterUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "JatApp Counter";
-			};
-			name = Debug;
-		};
-		261D9CC225B8521900B39D60 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PE7RPE5TA2;
-				INFOPLIST_FILE = "JatApp CounterUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nickrudenko.JatApp-CounterUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "JatApp Counter";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -779,15 +687,6 @@
 			buildConfigurations = (
 				261D9CBE25B8521900B39D60 /* Debug */,
 				261D9CBF25B8521900B39D60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		261D9CC025B8521900B39D60 /* Build configuration list for PBXNativeTarget "JatApp CounterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				261D9CC125B8521900B39D60 /* Debug */,
-				261D9CC225B8521900B39D60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

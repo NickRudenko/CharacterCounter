@@ -16,6 +16,7 @@ protocol CounterViewProtocol: class {
 
 protocol CounterViewPresenterProtocol {
     init(view: CounterViewProtocol, networkService: NetworkServiceProtocol, router: RouterProtocol)
+    func countCharacters(inputText: String)
     var countsArr: [Dictionary<Character, UInt>.Element] { get set }
     func loadText()
     func logout()
